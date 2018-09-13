@@ -2,6 +2,7 @@ document.addEventListener("deviceready", onDeviceReady,false);
 		function onDeviceReady() {
 		alert("Device is starting");
 		cameraTakePicture();
+		//batteryStatus();
 		}
 		function cameraTakePicture() { 
 		alert('camera is starting');
